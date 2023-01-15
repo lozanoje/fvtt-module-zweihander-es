@@ -1,0 +1,49 @@
+{
+    "id": "fvtt-module-zweihander-es",
+    "title": "Zweihänder Grim & Perilous RPG - Español/Spanish",
+    "description": "Traducción del sistema Zweihänder Grim & Perilous RPG (https://github.com/fh-fvtt/zweihander) al español -  Zweihänder Grim & Perilous RPG spanish translation",
+    "version": "5.05.5",
+    "languages": [{
+            "lang": "es",
+            "name": "Español",
+            "path": "lang/es.json"
+        }, {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "styles": [],
+    "authors": [{
+            "name": "José E. Lozano",
+            "discord": "@Viriato139ac#0342",
+            "flags": {}
+        }
+    ],
+    "esmodules": [
+        "zweihander-es-register.js"
+    ],
+    "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+        "systems": [{
+                "id": "zweihander",
+                "type": "system",
+                "compatibility": "5.0.5"
+            }
+        ]
+    },
+    "compatibility": {
+        "minimum": 10,
+        "verified": "10.291"
+    },
+    "packs": [],
+    "url": "https://github.com/lozanoje/fvtt-module-zweihander-es",
+    "manifest": "https://raw.githubusercontent.com/lozanoje/fvtt-module-zweihander-es/main/module.json",
+    "download": "https://github.com/lozanoje/fvtt-module-zweihander-es/archive/main.zip"
+}
