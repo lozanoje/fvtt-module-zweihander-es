@@ -54,6 +54,10 @@ O bien contactando con su creador en el discord de Foundry VTT Español:
 
 [Discord FoundryVTT Español](https://discord.gg/MHCerwd)
 
+## Créditos
+
+Originalmente el proyecto usaba Babele, en esa traducción colaboró Darkwood en un proyecto de transifex. Más tarde se prescindió de Babele y se rehizo el proyecto migrándolo a un repositorio propio con compendios totalmente independientes en español.
+
 ## Derechos
 
 Todo el contenido ha sido aprobado por el legítimo propietario actual de los derechos de la traducción de Zweihänder.
