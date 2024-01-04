@@ -6,7 +6,7 @@ Traducción del sistema Zweihänder Juego de Rol Sombrío y Peligroso (github.co
 
 El módulo traduce el sistema original, que cuenta con numerosas ayudas para que los directores de juego creen sus partidas sombrías y peligrosas.
 
-En esta nueva versión, se ha incluido información de todos los objetos listos para que los puedas incluir en tus partidas, tanto del libro básico de Zweihänder (disponible en tu tienda habitual) como de Main Gauche (disponible en drivethru - https://preview.drivethrurpg.com/en/product/381346/MAIN-GAUCHE-ES).
+En esta nueva versión, se ha incluido información de todos los objetos listos para que los puedas incluir en tus partidas, tanto del libro básico de Zweihänder (disponible en tu tienda habitual) como de Main Gauche, [disponible en drivethru](https://preview.drivethrurpg.com/en/product/381346/MAIN-GAUCHE-ES).
 
 Todos estos objetos están organizados en lo que Foundry VTT llama compendios, divididos por tipos: ancestros, armas, rasgos, etc.
 
@@ -48,17 +48,17 @@ En el módulo se incluyen:
 
 Podéis informar de errores o sugerir mejoras en el repositorio del módulo:
 
-![Repositorio fvtt-module-zweihander-es](https://github.com/lozanoje/fvtt-module-zweihander-es/issues)
+[Repositorio fvtt-module-zweihander-es](https://github.com/lozanoje/fvtt-module-zweihander-es/issues)
 
 O bien contactando con su creador en el discord de Foundry VTT Español: 
 
-![Discord FoundryVTT Español](https://discord.gg/MHCerwd)
+[Discord FoundryVTT Español](https://discord.gg/MHCerwd)
 
 ## Derechos
 
 Todo el contenido ha sido aprobado por el legítimo propietario actual de los derechos de la traducción de Zweihänder.
 
-![Dosier de prensa del módulo de Zweihänder en 77mundos](https://77mundos.es/noticias/liberado-el-modulo-al-espanol-de-zweihander-para-foundry-vtt/)
+[Dosier de prensa del módulo de Zweihänder en 77mundos](https://77mundos.es/noticias/liberado-el-modulo-al-espanol-de-zweihander-para-foundry-vtt/)
 
 El módulo no está patrocinado por 77mundos o World of Game Design, ni la editorial es responsable de su mantenimiento, no contiene imágenes con derechos de 77mundos o World of Game Design, ni textos del manual más allá de las descripciones de los objetos, para los que la editorial ha dado consentimiento explícito al desarrollador.
 
@@ -66,6 +66,6 @@ El módulo no está patrocinado por 77mundos o World of Game Design, ni la edito
 
 Podéis ver el módulo en acción en las partidas del canal de Youtube del desarrollador José “Viriato139ac” Lozano:
 
-![Canal de youtube de José Lozano](https://www.youtube.com/watch?v=31WUaJMrzzo&list=PLliKI08MgJaH23J_XWED6Aec-Hiz1NXNF)
+[Canal de youtube de José Lozano](https://www.youtube.com/watch?v=31WUaJMrzzo&list=PLliKI08MgJaH23J_XWED6Aec-Hiz1NXNF)
 
 
