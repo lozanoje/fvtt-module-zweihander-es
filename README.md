@@ -48,17 +48,17 @@ En el módulo se incluyen:
 
 Podéis informar de errores o sugerir mejoras en el repositorio del módulo:
 
-![](https://github.com/lozanoje/fvtt-module-zweihander-es/issues)
+![Repositorio fvtt-module-zweihander-es](https://github.com/lozanoje/fvtt-module-zweihander-es/issues)
 
 O bien contactando con su creador en el discord de Foundry VTT Español: 
 
-![](https://discord.gg/MHCerwd)
+![Discord FoundryVTT Español](https://discord.gg/MHCerwd)
 
 ## Derechos
 
 Todo el contenido ha sido aprobado por el legítimo propietario actual de los derechos de la traducción de Zweihänder.
 
-![](https://77mundos.es/noticias/liberado-el-modulo-al-espanol-de-zweihander-para-foundry-vtt/)
+![Dosier de prensa del módulo de Zweihänder en 77mundos](https://77mundos.es/noticias/liberado-el-modulo-al-espanol-de-zweihander-para-foundry-vtt/)
 
 El módulo no está patrocinado por 77mundos o World of Game Design, ni la editorial es responsable de su mantenimiento, no contiene imágenes con derechos de 77mundos o World of Game Design, ni textos del manual más allá de las descripciones de los objetos, para los que la editorial ha dado consentimiento explícito al desarrollador.
 
@@ -66,6 +66,6 @@ El módulo no está patrocinado por 77mundos o World of Game Design, ni la edito
 
 Podéis ver el módulo en acción en las partidas del canal de Youtube del desarrollador José “Viriato139ac” Lozano:
 
-![](https://www.youtube.com/watch?v=31WUaJMrzzo&list=PLliKI08MgJaH23J_XWED6Aec-Hiz1NXNF)
+![Canal de youtube de José Lozano](https://www.youtube.com/watch?v=31WUaJMrzzo&list=PLliKI08MgJaH23J_XWED6Aec-Hiz1NXNF)
 
 
