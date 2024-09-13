@@ -2,10 +2,11 @@
   "id": "fvtt-module-zweihander-es",
   "title": "Translation: Spanish [Zweihänder]",
   "description": "Traducción del sistema Zweihänder Juego de Rol Sombrío y Peligroso (github.com/fh-fvtt/zweihander) al español -  Zweihänder Grim & Perilous RPG spanish translation",
-  "version": "5.20.3",
+  "version": "5.31.1",
   "compatibility": {
     "minimum": "11",
-    "verified": "11.315"
+    "verified": "12.331",
+    "maximum": "12"
   },
   "languages": [
     {
@@ -19,8 +20,34 @@
   {
     "name": "Compendios en español",
     "sorting": "a",
-    "color": "#b95050",
-    "packs": ["zh-ancestral-traits-es","zh-ancestries-es","zh-armor-es","zh-attack-profiles-es","zh-professions-es","zh-qualities-es","zh-rituals-es","zh-skills-es","zh-creature-traits-es","zh-diseases-es","zh-disorders-es","zh-drawbacks-es","zh-talents-es","zh-traits-es","zh-weapons-es","zh-weapons-alt-damage-es","zh-injuriesv2-es","zh-taints-es","zh-magick-es","zh-trappings-es","zh-bestiary-es","zh-gm-tablesv2-es","zh-creacion-pjs"]
+    "color": "#788c73",
+      "folders": [{
+          "name": "Bestiario",
+          "sorting": "a",
+          "color": "#4f4a40",
+          "packs": ["zh-attack-profiles-es", "zh-creature-traits-es", "zh-taints-es", "zh-bestiary-es"]
+        }, {
+          "name": "Equipo",
+          "sorting": "a",
+          "color": "#788c73",
+          "packs": ["zh-armor-es", "zh-qualities-es", "zh-weapons-es", "zh-weapons-alt-damage-es", "zh-trappings-es"]
+        }, {
+          "name": "Magia",
+          "sorting": "a",
+          "color": "#4f4a40",
+          "packs": ["zh-rituals-es", "zh-magick-es"]
+        }, {
+          "name": "Personajes",
+          "sorting": "a",
+          "color": "#788c73",
+          "packs": ["zh-ancestral-traits-es", "zh-ancestries-es", "zh-professions-es", "zh-skills-es", "zh-diseases-es", "zh-disorders-es", "zh-drawbacks-es", "zh-talents-es", "zh-traits-es", "zh-creacion-pjs"]
+        }, {
+          "name": "Reglas",
+          "sorting": "a",
+          "color": "#4f4a40",
+          "packs": ["zh-injuriesv2-es", "zh-gm-tablesv2-es"]
+        }
+      ]
   }
   ],
   "packs": [
@@ -291,7 +318,7 @@
 	    "systems": [{
 	        "id": "zweihander",
 	        "type": "system",
-	        "compatibility": "5.2.0"
+	        "compatibility": "5.3.1"
 	      }
 	    ],
 	    "requires": [{
@@ -301,8 +328,6 @@
 	      }
 	    ]
 	  },
-	
-	
   "esmodules": [
     "fvtt-module-zweihander-es.js"
   ]
