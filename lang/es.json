@@ -487,7 +487,7 @@
         "primarymo": "Atributo primario del movimiento",
         "primarymohint": "Seleccione el atributo primario para el cálculo del movimiento",
         "globaltitle": "Modificadores globales",
-        "globalnotes": "Estos campos <strong>no se deben usar para aplicar modificadores temporales</strong>, como los que dan hechizos u objetos. Su intención es que se use para reflejar modificadores permanentes, como el rasgo profesional Porteador del Osamentero",
+        "globalnotes": "Estos campos NO DEBERÍAN usarse para modificadores temporales, como los que otorgan hechizos u objetos. Su intención es que se use para reflejar modificadores permanentes, como el rasgo profesional Porteador del Osamentero",
         "globalencumbrance": "Modificador a la carga",
         "globalencumbrancehint": "Establece un modificador global a la carga",
         "globalinitiative": "Modificador a la iniciativa",
