@@ -1,6 +1,6 @@
-# Zweihänder Juego de Rol Sombrío y Peligroso para FoundryVTT
+# Translation: Spanish [Zweihänder Grim & Perilous RPG] para FoundryVTT
 
-Traducción del sistema Zweihänder Juego de Rol Sombrío y Peligroso (github.com/fh-fvtt/zweihander) al español -  Zweihänder Grim & Perilous RPG spanish translation
+Traducción del sistema Zweihänder Grim & Perilous RPG (github.com/fh-fvtt/zweihander) al español -  Zweihänder Grim & Perilous RPG spanish translation
 
 ## Description - Descripción  
 
