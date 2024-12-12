@@ -2,7 +2,7 @@
   "id": "fvtt-module-zweihander-es",
   "title": "Translation: Spanish [Zweihänder]",
   "description": "Traducción del sistema Zweihänder Juego de Rol Sombrío y Peligroso (github.com/fh-fvtt/zweihander) al español -  Zweihänder Grim & Perilous RPG spanish translation",
-  "version": "5.41.4",
+  "version": "5.41.5",
   "compatibility": {
     "minimum": "12",
     "verified": "12.331",
@@ -40,12 +40,12 @@
           "name": "Personajes",
           "sorting": "a",
           "color": "#788c73",
-          "packs": ["zh-ancestral-traits-es", "zh-ancestries-es", "zh-professions-es", "zh-skills-es", "zh-diseases-es", "zh-disorders-es", "zh-drawbacks-es", "zh-talents-es", "zh-traits-es", "zh-creacion-pjs"]
+          "packs": ["zh-ancestral-traits-es", "zh-ancestries-es", "zh-professions-es", "zh-skills-es", "zh-diseases-es", "zh-disorders-es", "zh-drawbacks-es", "zh-talents-es", "zh-traits-es", "zh-pccreation-es"]
         }, {
           "name": "Reglas",
           "sorting": "a",
           "color": "#4f4a40",
-          "packs": ["zh-injuriesv2-es", "zh-gm-tablesv2-es"]
+          "packs": ["zh-injuries-es", "zh-gm-tables-es"]
         }
       ]
   }
@@ -228,15 +228,15 @@
       "absPath": "packs/zh-weapons-alt-damage-es.db"
     },
     {
-      "name": "zh-injuriesv2-es",
+      "name": "zh-injuries-es",
       "label": "Heridas",
       "system": "zweihander",
-      "path": "packs/zh-injuriesv2-es.db",
+      "path": "packs/zh-injuries-es.db",
       "type": "Item",
       "private": false,
       "flags": {},
       "package": "fvtt-module-zweihander-es",
-      "absPath": "packs/zh-injuriesv2-es.db"
+      "absPath": "packs/zh-injuries-es.db"
     },
     {
       "name": "zh-taints-es",
@@ -283,26 +283,26 @@
       "absPath": "packs/zh-bestiary-es.db"
     },
     {
-      "name": "zh-gm-tablesv2-es",
+      "name": "zh-gm-tables-es",
       "label": "Tablas GM",
       "system": "zweihander",
-      "path": "packs/zh-gm-tablesv2-es.db",
+      "path": "packs/zh-gm-tables-es.db",
       "type": "RollTable",
       "private": false,
       "flags": {},
       "package": "fvtt-module-zweihander-es",
-      "absPath": "packs/zh-gm-tablesv2-es.db"
+      "absPath": "packs/zh-gm-tables-es.db"
     },
     {
       "label": "Tablas de creación de PJs",
       "type": "RollTable",
-      "name": "zh-creacion-pjs",
-      "path": "packs/zh-creacion-pjs.db",
+      "name": "zh-pccreation-es",
+      "path": "packs/zh-pccreation-es.db",
       "system": "zweihander",
       "private": false,
       "flags": {},
       "package": "fvtt-module-zweihander-es",
-      "absPath": "packs/zh-creacion-pjs.db"
+      "absPath": "packs/zh-pccreation-es.db"
     }
   ],
   "url": "https://github.com/lozanoje/fvtt-module-zweihander-es",
