@@ -23,7 +23,8 @@
     "TypeTrait": "Rasgo",
     "TypeTrapping": "Enseres",
     "TypeUniqueadvance": "Avance único",
-    "TypeWeapon": "Arma"
+    "TypeWeapon": "Arma",
+    "TypeManual": "Manual"
   },
   "ACTIVEEFFECT": {
     "TypeBase": "Efecto activo"
@@ -211,6 +212,7 @@
         "add": "Añadir",
         "edit": "Editar",
         "delete": "Borrar",
+        "remove": "Quitar",
         "source": "Fuente",
         "type": "Tipo",
         "rpcost": "Coste PR",
@@ -254,6 +256,7 @@
         "ancestraltrait": "Rasgo ancestral",
         "damagethresholdmodifier": "Modificador umbral daño",
         "status": "Condición",
+        "bonusperrank": "Aumento de la probabilidad base por nivel",
         "effect": "Efecto",
         "treatment": "Tratamiento",
         "details": "Detalles",
@@ -271,7 +274,12 @@
         "ritualeffects": "Efectos del ritual",
         "positivebonus": "Modif. positivos de bono",
         "negativebonus": "Modif. negativos de bono",
-        "quantity": "Unidades"
+        "quantity": "Unidades",
+        "demote": "Degradar a pasajero",
+        "promote": "Promover a conductor",
+        "item": "Objeto",
+        "post": "Enviar",
+        "tochat": "al chat"
       },
       "conditions": {
         "incapacitated": "¡INCAPACITADO!",
@@ -304,6 +312,15 @@
         "intelligence": "BI",
         "willpower": "BV",
         "fellowship": "BE"
+      },
+      "bonusesabbr": {
+        "cb": "BC",
+        "bb": "BF",
+        "ab": "BA",
+        "pb": "BP",
+        "ib": "BI",
+        "wb": "BV",
+        "fb": "BE"
       },
       "details": {
         "prefixes": {
@@ -456,10 +473,16 @@
       "trackrewardhint": "Habilita el registro automático del gasto de puntos de recompensa",
       "injuryprompt": "Pedir tiradas de heridas",
       "injuryprompthint": "Pide al usuario automáticamente tirar por heridas cuando alcanza un nuevo estado de daño en el marcador de daño",
+      "injurylist": "Listado de tablas de heridas",
+      "injurylisthint": "ID del compendio que contendrá el listado de tablas de heridas disponibles. Solo es relevante si está activada la opción de pedir automáticamente al usuario tirar por las heridas.",
       "compactmode": "Modo compacto",
       "compactmodehint": "Las hojas de criaturas y PNJ se abrirán en modo compacto por defecto",
       "skilllist": "Listado de habilidades",
       "skilllisthint": "ID del compendio que se usará para la lista de habilidades disponibles para nuevos actores",
+      "immersivepause": "Mostrar mensajes de pausa inmersivos",
+      "immersivepausehint": "Si se habilita, se mostrarán mensajes ominosos aleatorios cuando se pause el juego.",
+      "alternativeperil": "Usar sistema de estrés alternativo",
+      "alternativeperilhint": "Este sistema de estrés aplica un penalizador simple a la probabilidad base en lugar de ignorar niveles de habilidad.",
       "fortuneexplodes": "No limitar la explosión de fortuna",
       "fortuneexplodeshint": "Se permitirá que los dados de furia exploten más de una vez por ataque",
       "zweitheme": "Tema de la hoja de Zweihander",
@@ -546,6 +569,9 @@
         "name": "Nombre",
         "literate": "Alfabeto",
         "add": "Añadir idioma"
+      },
+      "othersettings": {
+        "underlyingmagickskill": "Habilidad subyacente de magia"
       }
     },
     "chatskill": {
@@ -664,7 +690,11 @@
       "showdocs": "Mostrar documentación del sistema",
       "modifiedattribute": "Atributo modificado",
       "mode": "Modo",
-      "value": "Valor"
+      "value": "Valor",
+      "professionmissing": "Falta un talento en la profesión, está mal escrito o duplicado. Por favor, corrija la lista de talentos.",
+      "entervalue": "Nuevo (habilidades y bonos en inglés)",
+      "injurytablemismatch": "No se ha encontrado la tabla de heridas {severity} en el compendio \"{pack}\". Por favor, corrija el listado de tablas de heridas en los ajustes del sistema.",
+      "injurytableerror": "No se ha encontrado el compendio \"{pack}\". Por favor, corrija el listado de tablas de heridas en los ajustes del sistema."
     },
     "coinage": {
       "gc": "co",

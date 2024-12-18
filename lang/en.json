@@ -23,7 +23,8 @@
     "TypeTrait": "Trait",
     "TypeTrapping": "Trapping",
     "TypeUniqueadvance": "Unique Advance",
-    "TypeWeapon": "Weapon"
+    "TypeWeapon": "Weapon",
+    "TypeManual": "Manual"
   },
   "ACTIVEEFFECT": {
     "TypeBase": "Active Effect"
@@ -211,6 +212,7 @@
         "add": "Add",
         "edit": "Edit",
         "delete": "Delete",
+        "remove": "Remove",
         "source": "Source",
         "type": "Type",
         "rpcost": "RP Cost",
@@ -224,7 +226,7 @@
         "recuperationtime": "Recuperation Time",
         "resist": "Resist",
         "severity": "Severity",
-        "ineffect": "Currently in Effect",
+        "ineffect": "Currently Active",
         "attackprofiles": "Attack Profiles",
         "taintschaos": "Taints",
         "conditions": "Conditions",
@@ -254,6 +256,7 @@
         "ancestraltrait": "Ancestral Trait",
         "damagethresholdmodifier": "Damage Threshold Modifier",
         "status": "Status",
+        "bonusperrank": "Base Chance Increase per Rank",
         "effect": "Effect",
         "treatment": "Treatment",
         "details": "Details",
@@ -271,7 +274,12 @@
         "ritualeffects": "Ritual Effects",
         "positivebonus": "Positive Bonus Modifiers",
         "negativebonus": "Negative Bonus Modifiers",
-        "quantity": "Quantity"
+        "quantity": "Quantity",
+        "demote": "Demote to Passenger",
+        "promote": "Promote to Driver",
+        "item": "Item",
+        "post": "Post",
+        "tochat": "to Chat"
       },
       "conditions": {
         "incapacitated": "INCAPACITATED!",
@@ -304,6 +312,15 @@
         "intelligence": "IB",
         "willpower": "WB",
         "fellowship": "FB"
+      },
+      "bonusesabbr": {
+        "cb": "CB",
+        "bb": "BB",
+        "ab": "AB",
+        "pb": "PB",
+        "ib": "IB",
+        "wb": "WB",
+        "fb": "FB"
       },
       "details": {
         "prefixes": {
@@ -394,7 +411,7 @@
       "flip": "Flip",
       "testmode": "Skill Test Mode",
       "fortune": "Fortune",
-      "misfortune": "Fortune",
+      "misfortune": "Misfortune",
       "furydice": "Additional Fury Dice",
       "furydie": "Fury Die",
       "chaosdice": "Additional Chaos Dice",
@@ -456,10 +473,16 @@
       "trackrewardhint": "Enable or disable the automatic tracking of Reward Point expenditure.",
       "injuryprompt": "Automatic Injury Prompt",
       "injuryprompthint": "Automatically prompt user to roll for Injury when falling on the Damage Condition Track.",
+      "injurylist": "Injury List",
+      "injurylisthint": "ID of the compendium pack to use for the list of available Injury tables. Only relevant if Automatic Injury Prompt is enabled.",
       "compactmode": "Open in Compact Mode",
       "compactmodehint": "Creature & NPC Sheets will be opened in Compact Mode by default",
       "skilllist": "Skill List",
       "skilllisthint": "ID of the compendium pack to use for the list of available skills for new actors.",
+      "immersivepause": "Show Immersive Pause Messages",
+      "immersivepausehint": "If enabled, will show a randomly selected dooming when the game is paused.",
+      "alternativeperil": "Use Alternative Peril System",
+      "alternativeperilhint": "This Peril system applies a flat penalty to Base Chance instead of ignoring Skill Ranks.",
       "fortuneexplodes": "Unlimited Fortune Explodes",
       "fortuneexplodeshint": "Enable to allow to explode fury dice more than once per attack.",
       "zweitheme": "Zweihander Sheet Theme",
@@ -546,6 +569,9 @@
         "name": "Language Name",
         "literate": "Literate",
         "add": "Add Language"
+      },
+      "othersettings": {
+        "underlyingmagickskill": "Underlying Magick Skill"
       }
     },
     "chatskill": {
@@ -664,7 +690,11 @@
       "showdocs": "Show System Documentation",
       "modifiedattribute": "Modified Attribute",
       "mode": "Mode",
-      "value": "Value"
+      "value": "Value",
+      "professionmissing": "Profession is missing a Talent, has a misspelled Talent, or has a duplicate one. Please add to/change Talent list.",
+      "entervalue": "Enter values here",
+      "injurytablemismatch": "{severity} Injuries table not found in Compendium Pack\"{pack}\". Please adjust the Injury List in Game Settings.",
+      "injurytableerror": "Compendium \"{pack}\" not found. Please adjust the Injury List in Game Settings."
     },
     "coinage": {
       "gc": "gc",

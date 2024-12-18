@@ -1,5 +1,6 @@
-Hooks.once('init', () => {
-  document.getElementById("logo").src = "/modules/fvtt-module-zweihander-es/images/fvtt-zweihander-es.webp";
+Hooks.once("init", () => {
+  document.getElementById("logo").src =
+    "/modules/fvtt-module-zweihander-es/images/fvtt-zweihander-es.webp";
 });
 
 Hooks.once("ready", async function () {
@@ -118,10 +119,10 @@ Hooks.once("ready", async function () {
     for (var i = 0; i < ficherosjs.length; i++) {
       if (ficherosjs[i].search(/\.js/) > -1) updateMacro(ficherosjs[i]);
     }
+    /*     game.settings.set(
+      "zweihander",
+      "injuryList",
+      "fvtt-module-zweihander-es.zh-gm-tables-es"
+    ); */
   }
-  
-    function onlyUnique(value, index, array) {
-      return array.indexOf(value) === index;
-    }
 });
-

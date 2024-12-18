@@ -1,10 +1,10 @@
 //
-// PC creator wizard (zweihander) v1.4
+// PC creator wizard (zweihander) v1.5
 // by Viriato139ac
 //
 
 const macroName = "PC creator wizard";
-const macroVersion = "1.4";
+const macroVersion = "1.5";
 const macroImage = "icons/magic/death/grave-tombstone-glow-teal.webp";
 
 const myDialogOptions = {
@@ -416,10 +416,9 @@ let paso65 = await Dialog.wait({
   title: "PASO VI: TRASFONDO",
   content:
     (nedad > 0
-      ? `<blockquote><p>Tus rasgos distintivos son: ${rasgosdistintivos}</p>`
-      : `<blockquote><p>No tienes rasgos distintivos</p>`) +
+      ? `<blockquote><p>Tus rasgos distintivos son: ${rasgosdistintivos}</p><p>Escribe tus rasgos distintivos en el apartado Rasgos Distintivos de tu hoja de PJ.</p></blockquote>`
+      : `<blockquote><p>No tienes rasgos distintivos</p></blockquote>`) +
     `
-<p>Escribe tus rasgos distintivos en el apartado Rasgos Distintivos de tu hoja de PJ.</p></blockquote>
 <hr>
 <p><strong>TONO DE PIEL</strong></p>
 <p>Un mundo sombrío y peligroso está poblado por un variado y rico tapiz de gentes y tonos de piel.</p>
