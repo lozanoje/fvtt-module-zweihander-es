@@ -1,8 +1,3 @@
-Hooks.once("init", () => {
-  document.getElementById("logo").src =
-    "/modules/fvtt-module-zweihander-es/images/fvtt-zweihander-es.webp";
-});
-
 Hooks.once("ready", async function () {
   function updateMacro(macroFile) {
     fetch(macroFile)
@@ -119,10 +114,22 @@ Hooks.once("ready", async function () {
     for (var i = 0; i < ficherosjs.length; i++) {
       if (ficherosjs[i].search(/\.js/) > -1) updateMacro(ficherosjs[i]);
     }
-    /*     game.settings.set(
-      "zweihander",
-      "injuryList",
-      "fvtt-module-zweihander-es.zh-gm-tables-es"
-    ); */
+
+    if (game.settings.get("core", "language") === "es") {
+      document.getElementById("logo").src =
+        "/modules/fvtt-module-zweihander-es/images/fvtt-zweihander-es.webp";
+
+      game.settings.set(
+        "zweihander",
+        "skillPack",
+        "fvtt-module-zweihander-es.zh-skills-es"
+      );
+
+      game.settings.set(
+        "zweihander",
+        "injuryList",
+        "fvtt-module-zweihander-es.zh-gm-tables-es"
+      );
+    }
   }
 });
