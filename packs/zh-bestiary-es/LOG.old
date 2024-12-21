@@ -1,14 +1,14 @@
-2024/12/21-11:40:25.782 4738 Recovering log #1026
-2024/12/21-11:40:25.880 4738 Delete type=0 #1026
-2024/12/21-11:40:25.880 4738 Delete type=3 #1025
-2024/12/21-11:40:26.259 2710 Level-0 table #1030: started
-2024/12/21-11:40:26.501 2710 Level-0 table #1030: 1613052 bytes OK
-2024/12/21-11:40:26.559 2710 Delete type=0 #1028
-2024/12/21-11:40:26.560 2710 Manual compaction at level-0 from '!actors!06ZfPwChqkJycKdh' @ 72057594037927935 : 1 .. '!actors.items!ySZw1fr0cM30l9M7.z2GfrhmRDmQ4luLz' @ 0 : 0; will stop at '!actors.items!ySZw1fr0cM30l9M7.z2GfrhmRDmQ4luLz' @ 31775 : 1
-2024/12/21-11:40:26.560 2710 Compacting 1@0 + 1@1 files
-2024/12/21-11:40:26.771 2710 Generated table #1031@0: 5768 keys, 1613052 bytes
-2024/12/21-11:40:26.771 2710 Compacted 1@0 + 1@1 files => 1613052 bytes
-2024/12/21-11:40:26.845 2710 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/12/21-11:40:26.846 2710 Delete type=2 #1020
-2024/12/21-11:40:26.846 2710 Delete type=2 #1030
-2024/12/21-11:40:26.847 2710 Manual compaction at level-0 from '!actors.items!ySZw1fr0cM30l9M7.z2GfrhmRDmQ4luLz' @ 31775 : 1 .. '!actors.items!ySZw1fr0cM30l9M7.z2GfrhmRDmQ4luLz' @ 0 : 0; will stop at (end)
+2024/12/21-21:09:47.419 368c Recovering log #1063
+2024/12/21-21:09:47.538 368c Delete type=0 #1063
+2024/12/21-21:09:47.538 368c Delete type=3 #1062
+2024/12/21-21:09:47.942 40ec Level-0 table #1067: started
+2024/12/21-21:09:48.104 40ec Level-0 table #1067: 1613189 bytes OK
+2024/12/21-21:09:48.159 40ec Delete type=0 #1065
+2024/12/21-21:09:48.160 40ec Manual compaction at level-0 from '!actors!06ZfPwChqkJycKdh' @ 72057594037927935 : 1 .. '!actors.items!ySZw1fr0cM30l9M7.z2GfrhmRDmQ4luLz' @ 0 : 0; will stop at '!actors.items!ySZw1fr0cM30l9M7.z2GfrhmRDmQ4luLz' @ 37599 : 1
+2024/12/21-21:09:48.160 40ec Compacting 1@0 + 1@1 files
+2024/12/21-21:09:48.341 40ec Generated table #1068@0: 5768 keys, 1613189 bytes
+2024/12/21-21:09:48.341 40ec Compacted 1@0 + 1@1 files => 1613189 bytes
+2024/12/21-21:09:48.414 40ec compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/12/21-21:09:48.414 40ec Delete type=2 #1061
+2024/12/21-21:09:48.416 40ec Delete type=2 #1067
+2024/12/21-21:09:48.417 40ec Manual compaction at level-0 from '!actors.items!ySZw1fr0cM30l9M7.z2GfrhmRDmQ4luLz' @ 37599 : 1 .. '!actors.items!ySZw1fr0cM30l9M7.z2GfrhmRDmQ4luLz' @ 0 : 0; will stop at (end)
