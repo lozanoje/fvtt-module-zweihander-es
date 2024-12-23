@@ -18,7 +18,8 @@ const migrateProfessionalTrait = async (p, log) => {
     professionalTraitName
   );
 
-  log ? console.log(`Migrating Professional Trait for ${p.name}:`, professionalTrait.uuid) : await p.update({ ['system.professionalTrait.uuid']: professionalTrait.uuid });
+  log ? console.log(`Migrating Professional Trait for ${p.name}:`, professionalTrait.uuid);
+  await p.update({ ['system.professionalTrait.uuid']: professionalTrait.uuid });
 };
 
 const migrateSpecialTrait = async (p, log) => {
