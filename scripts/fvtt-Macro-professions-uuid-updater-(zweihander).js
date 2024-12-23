@@ -32,7 +32,8 @@ const migrateSpecialTrait = async (p, log) => {
     specialTraitName
   );
 
-  log ? console.log(`Migrating Special Trait for ${p.name}:`, specialTrait.uuid) : await p.update({ ['system.specialTrait.uuid']: specialTrait.uuid });
+  log ? console.log(`Migrating Special Trait for ${p.name}:`, specialTrait.uuid);
+	await p.update({ ['system.specialTrait.uuid']: specialTrait.uuid });
 };
 
 const migrateDrawback = async (p, log) => {
@@ -46,7 +47,8 @@ const migrateDrawback = async (p, log) => {
     drawbackName
   );
 
-  log ? console.log(`Migrating Drawback for ${p.name}:`, drawback.name) : await p.update({ ['system.drawback.uuid']: drawback.uuid });
+  log ? console.log(`Migrating Drawback for ${p.name}:`, drawback.name);
+	await p.update({ ['system.drawback.uuid']: drawback.uuid });
 };
 
 const migrateTalents = async (p, log) => {
@@ -54,7 +56,13 @@ const migrateTalents = async (p, log) => {
 
   let updatedTalentList = (await findItemsWorldWide('talent', talentList.map((t) => t.name))).flat().map((t, i) => ({...talentList[i], uuid: t.uuid}));
 
-  log ? console.log(`Migrating Talents for ${p.name}:`, updatedTalentList) : await p.update({ ['system.talents']: updatedTalentList });
+  log ? console.log(`Migrating Talents for ${p.name}:`, updatedTalentList);
+  await p.update({ ['system.talents']: updatedTalentList });
+};
+
+const migrateRequirements = async (p, log) => {
+  log ? console.log(`Migrating Requirements for ${p.name}:`, p.system.expert.requirements);
+	await p.update({ ['system.expert.requirements']: { additional: "", skillRanks: [] } });
 };
 
 const log = true;
@@ -64,4 +72,5 @@ professionsList.forEach(async (p) => {
   await migrateSpecialTrait(p, log);
   await migrateDrawback(p, log);
   await migrateTalents(p, log);
+  await migrateRequirements(p, log);
 });
