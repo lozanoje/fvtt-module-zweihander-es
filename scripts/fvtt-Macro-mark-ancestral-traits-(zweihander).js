@@ -1,10 +1,10 @@
 //
-// Mark ancestral traits (zweihander) v0.1
+// Mark ancestral traits (zweihander) v0.3
 // By Rex
 //
 
 const macroName = "Mark ancestral traits";
-const macroVersion = "0.1";
+const macroVersion = "0.3";
 const macroImage = "icons/tools/fasteners/screw-flat-steel-brown.webp";
 
 let alreadyChecked = [];
@@ -28,7 +28,8 @@ const migrateSpecialTrait = async (p, log) => {
     specialTraitName
   );
 
-  log ? console.log(`Migrating Special Trait for ${p.name}:`, specialTraitName) : await specialTrait.update({ ['system.category']: 'special' });
+  if (log) console.log(`Migrating Special Trait for ${p.name}:`, specialTraitName);
+  await specialTrait.update({ ['system.category']: 'special' });
 };
 
 const log = true;

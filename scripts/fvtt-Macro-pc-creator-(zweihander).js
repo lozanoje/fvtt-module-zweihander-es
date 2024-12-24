@@ -1,10 +1,10 @@
 //
-// PC creator wizard (zweihander) v1.5
+// PC creator wizard (zweihander) v1.6
 // by Viriato139ac
 //
 
 const macroName = "PC creator wizard";
-const macroVersion = "1.5";
+const macroVersion = "1.6";
 const macroImage = "icons/magic/death/grave-tombstone-glow-teal.webp";
 
 const myDialogOptions = {

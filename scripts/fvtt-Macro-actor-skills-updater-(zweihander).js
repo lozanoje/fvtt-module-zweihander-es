@@ -1,10 +1,10 @@
 //
-// Actor items updater (zweihander) v0.2
+// Actor items updater (zweihander) v0.3
 // By Viriato139ac
 //
 
 const macroName = "Actor preferred skills updater";
-const macroVersion = "0.2";
+const macroVersion = "0.3";
 const macroImage = "icons/sundries/books/book-tooled-blue-yellow.webp";
 
 for (let a of Array.from(game.actors)) {

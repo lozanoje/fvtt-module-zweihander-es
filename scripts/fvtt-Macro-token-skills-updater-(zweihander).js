@@ -1,10 +1,10 @@
 //
-// Token items updater (zweihander) v0.2
+// Token items updater (zweihander) v0.3
 // By Viriato139ac
 //
 
 const macroName = "Token preferred skills updater";
-const macroVersion = "0.2";
+const macroVersion = "0.3";
 const macroImage = "icons/sundries/books/book-symbol-hexagram-silver-red.webp";
 
 updateTokenItems();
