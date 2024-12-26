@@ -1,10 +1,10 @@
 //
-// Mark special traits (zweihander) v0.3
+// Mark special traits (zweihander) v0.6
 // By Rex
 //
 
 const macroName = "Mark special traits";
-const macroVersion = "0.3";
+const macroVersion = "0.6";
 const macroImage = "icons/tools/fasteners/bolt-steel-blue.webp";
 
 let alreadyChecked = [];
@@ -12,10 +12,7 @@ let alreadyChecked = [];
 const professionsPack = game.packs.get("fvtt-module-zweihander-es.zh-professions-es");
 const professionsList = await professionsPack.getDocuments();
 
-const traitsPack = game.packs.get("fvtt-module-zweihander-es.zh-traits-es");
-const traitsList = await traitsPack.getDocuments();
-
-const migrateSpecialTrait = async (p, log) => {
+const migrateSpecialTrait = async (p, log, exec) => {
   let specialTraitName = p.system.specialTrait.name;
 
   if (specialTraitName === '') return;
@@ -27,13 +24,16 @@ const migrateSpecialTrait = async (p, log) => {
     "trait",
     specialTraitName
   );
+	
+if (!specialTrait) console.log("---------------------\n" + specialTraitName + ' not found\n---------------------')
 
   if (log) console.log(`Migrating Special Trait for ${p.name}:`, specialTraitName);
-  await specialTrait.update({ ['system.category']: 'special' });
+  if (exec) await specialTrait.update({ ['system.category']: 'special' });
 };
 
-const log = true;
+const log = false;
+const exec = false;
 
 professionsList.forEach(async (p) => {
-  await migrateSpecialTrait(p, log);
+  await migrateSpecialTrait(p, log, exec);
 });

@@ -1,39 +1,23 @@
 //
-// Mark ancestral traits (zweihander) v0.3
+// Mark ancestral traits (zweihander) v0.6
 // By Rex
 //
 
 const macroName = "Mark ancestral traits";
-const macroVersion = "0.3";
+const macroVersion = "0.6";
 const macroImage = "icons/tools/fasteners/screw-flat-steel-brown.webp";
 
-let alreadyChecked = [];
-
-const professionsPack = game.packs.get("fvtt-module-zweihander-es.zh-professions-es");
-const professionsList = await professionsPack.getDocuments();
-
-const traitsPack = game.packs.get("fvtt-module-zweihander-es.zh-traits-es");
+const traitsPack = game.packs.get("fvtt-module-zweihander-es.zh-ancestral-traits-es");
 const traitsList = await traitsPack.getDocuments();
 
-const migrateSpecialTrait = async (p, log) => {
-  let specialTraitName = p.system.specialTrait.name;
-
-  if (specialTraitName === '') return;
-  if (alreadyChecked.includes(specialTraitName)) return;
-
-  alreadyChecked.push(specialTraitName);
-
-  const specialTrait = await globalThis.findItemWorldWide(
-    "trait",
-    specialTraitName
-  );
-
-  if (log) console.log(`Migrating Special Trait for ${p.name}:`, specialTraitName);
-  await specialTrait.update({ ['system.category']: 'special' });
+const migrateAncestralTrait = async (p, log, exec) => {
+  if (log) console.log(`Migrating ancestral Trait for ${p.name}:`, p.system.category);
+  if (exec) await p.update({['system.category']: 'ancestral'});
 };
 
-const log = true;
+const log = false;
+const exec = false;
 
-professionsList.forEach(async (p) => {
-  await migrateSpecialTrait(p, log);
+traitsList.forEach(async (p) => {
+  await migrateAncestralTrait(p, log, exec);
 });
