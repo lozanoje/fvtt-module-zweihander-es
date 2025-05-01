@@ -116,20 +116,35 @@ Hooks.once("ready", async function () {
     }
 
     if (game.settings.get("core", "language") === "es") {
-      document.getElementById("logo").src =
-        "/modules/fvtt-module-zweihander-es/images/fvtt-zweihander-es.webp";
+      document.getElementById("logo").src = "modules/fvtt-module-zweihander-es/images/fvtt-zweihander-es.webp";
+      document.getElementById("logo").style = "display: unset;filter: unset;";	  
 
-      game.settings.set(
-        "zweihander",
-        "skillPack",
-        "fvtt-module-zweihander-es.zh-skills-es"
-      );
+      game.settings.set("zweihander","skillPack","fvtt-module-zweihander-es.skills-es");
+      game.settings.set("zweihander","ancestralTraitPack","fvtt-module-zweihander-es.zh-ancestral-traits-es");
+      game.settings.set("zweihander","ancestryPack","fvtt-module-zweihander-es.zh-ancestries-es");
+      game.settings.set("zweihander","characterCreationList","fvtt-module-zweihander-es.zh-charactercreation-tables-es");
+      game.settings.set("zweihander","creatureTraitPack","fvtt-module-zweihander-es.zh-creature-traits-es");
+      game.settings.set("zweihander","diseasePack","fvtt-module-zweihander-es.zh-diseases-es");
+      game.settings.set("zweihander","disorderPack","fvtt-module-zweihander-es.zh-disorders-es");
+      game.settings.set("zweihander","drawbackPack","fvtt-module-zweihander-es.zh-drawbacks-es");
+      game.settings.set("zweihander","injuryList","fvtt-module-zweihander-es.zh-gm-tables-es");
+      game.settings.set("zweihander","injuryPack","fvtt-module-zweihander-es.zh-injuries-es");
+      game.settings.set("zweihander","spellPack","fvtt-module-zweihander-es.zh-magick-es");
+      game.settings.set("zweihander","professionPack","fvtt-module-zweihander-es.zh-professions-es");
+      game.settings.set("zweihander","qualityPack","fvtt-module-zweihander-es.zh-qualities-es");
+      game.settings.set("zweihander","ritualPack","fvtt-module-zweihander-es.zh-rituals-es");
+      game.settings.set("zweihander","talentPack","fvtt-module-zweihander-es.zh-talents-es");
+      game.settings.set("zweihander","traitPack","fvtt-module-zweihander-es.zh-traits-es");
+      game.settings.set("zweihander","taintPack","fvtt-module-zweihander-es.zh-taints-es");
+      game.settings.set("zweihander","armorPack","fvtt-module-zweihander-es.zh-armor-es");
+      game.settings.set("zweihander","weaponPack","fvtt-module-zweihander-es.zh-weapons-es");
+      game.settings.set("zweihander","weaponAltPack","fvtt-module-zweihander-es.zh-weapons-alt-damage-es");
+      game.settings.set("zweihander","trappingPack","fvtt-module-zweihander-es.zh-trappings-es");
 
-      game.settings.set(
-        "zweihander",
-        "injuryList",
-        "fvtt-module-zweihander-es.zh-gm-tables-es"
-      );
+      game.settings.set("zweihander","defaultParrySkills","A simples CaC, A marciales CaC, Ardides, Carisma, Encantamiento");
+      game.settings.set("zweihander","defaultDodgeSkills","Coordinación, Ardides, Conducción, Equitación");
+      game.settings.set("zweihander","defaultMagickSkills","Encantamiento, Folclore");
+	  
     }
   }
 });
