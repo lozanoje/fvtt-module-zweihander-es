@@ -2,7 +2,7 @@
   "id": "fvtt-module-zweihander-es",
   "title": "Translation: Spanish [Zweihänder]",
   "description": "Traducción del sistema Zweihänder Juego de Rol Sombrío y Peligroso (github.com/fh-fvtt/zweihander) al español -  Zweihänder Grim & Perilous RPG spanish translation",
-  "version": "5.41.8",
+  "version": "5.41.9",
   "compatibility": {
     "minimum": "12",
     "verified": "12.331",
@@ -40,7 +40,7 @@
           "name": "Personajes",
           "sorting": "a",
           "color": "#788c73",
-          "packs": ["zh-ancestral-traits-es", "zh-ancestries-es", "zh-professions-es", "zh-skills-es", "zh-diseases-es", "zh-disorders-es", "zh-drawbacks-es", "zh-talents-es", "zh-traits-es", "zh-pccreation-es"]
+          "packs": ["zh-ancestral-traits-es", "zh-ancestries-es", "zh-professions-es", "zh-skills-es", "zh-diseases-es", "zh-disorders-es", "zh-drawbacks-es", "zh-talents-es", "zh-traits-es", "zh-charactercreation-tables-es"]
         }, {
           "name": "Reglas",
           "sorting": "a",
@@ -294,15 +294,15 @@
       "absPath": "packs/zh-gm-tables-es.db"
     },
     {
+      "name": "zh-charactercreation-tables-es",
       "label": "Tablas de creación de PJs",
       "type": "RollTable",
-      "name": "zh-pccreation-es",
-      "path": "packs/zh-pccreation-es.db",
+      "path": "packs/zh-charactercreation-tables-es.db",
       "system": "zweihander",
       "private": false,
       "flags": {},
       "package": "fvtt-module-zweihander-es",
-      "absPath": "packs/zh-pccreation-es.db"
+      "absPath": "packs/zh-charactercreation-tables-es.db"
     }
   ],
   "url": "https://github.com/lozanoje/fvtt-module-zweihander-es",

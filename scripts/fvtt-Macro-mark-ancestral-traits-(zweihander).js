@@ -1,18 +1,18 @@
 //
-// Mark ancestral traits (zweihander) v0.6
+// Mark beasts traits (zweihander) v0.1
 // By Rex
 //
 
-const macroName = "Mark ancestral traits";
-const macroVersion = "0.6";
-const macroImage = "icons/tools/fasteners/screw-flat-steel-brown.webp";
+const macroName = "Mark beasts traits";
+const macroVersion = "0.1";
+const macroImage = "icons/creatures/magical/construct-golem-stone-blue.webp";
 
-const traitsPack = game.packs.get("fvtt-module-zweihander-es.zh-ancestral-traits-es");
+const traitsPack = game.packs.get("fvtt-module-zweihander-es.zh-creature-traits-es");
 const traitsList = await traitsPack.getDocuments();
 
 const migrateAncestralTrait = async (p, log, exec) => {
-  if (log) console.log(`Migrating ancestral Trait for ${p.name}:`, p.system.category);
-  if (exec) await p.update({['system.category']: 'ancestral'});
+  if (log) console.log(`Migrating beasts Trait for ${p.name}:`, p.system.category);
+  if (exec) await p.update({['system.category']: 'beast'});
 };
 
 const log = false;
