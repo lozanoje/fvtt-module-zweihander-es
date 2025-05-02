@@ -742,7 +742,7 @@
       "noskill": "No se ha podido encontrar una habilidad llamada {message}",
       "suretype": "<h4>¿Está seguro?</h4><p>Este objeto de tipo {type} se borrará permanentemente y no se podrá recuperar</p>",
       "nextsession": "<h2>Fecha de la próxima sesión</h2>La próxima sesión tendrá lugar el {next}. Por favor, apunte la fecha en su agenda",
-      "rollinjury": "<h4>Su nivel de heridas ha llegado a {injury}. ¿Quiere tirar por la herida?</h4>",
+      "rollinjury": "Su nivel de heridas ha llegado a {injury}. ¿Quiere tirar por la herida?",
       "validwhat": "Por favor, elija un {what} válido y que exisa",
       "selecttoken": "Por favor, seleccione un icono para realizar esta acción",
       "nocharacter": "Actualmente no tiene ningún personaje asignado. Escoja uno en la configuración de usuario",
