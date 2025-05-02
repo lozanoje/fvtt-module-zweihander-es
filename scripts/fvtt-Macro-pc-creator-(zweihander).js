@@ -1,10 +1,10 @@
 //
-// PC creator wizard (zweihander) v1.5
+// PC creator wizard (zweihander) v1.7
 // by Viriato139ac
 //
 
 const macroName = "PC creator wizard";
-const macroVersion = "1.5";
+const macroVersion = "1.7";
 const macroImage = "icons/magic/death/grave-tombstone-glow-teal.webp";
 
 const myDialogOptions = {
@@ -15,7 +15,7 @@ const myDialogOptions = {
   //left: 500
 };
 
-const tablesPack = game.packs.get("fvtt-module-zweihander-es.zh-pccreation-es");
+const tablesPack = game.packs.get("fvtt-module-zweihander-es.zh-charactercreation-tables-es");
 const tablesIndex = await tablesPack.getIndex();
 let tableEntry;
 let rollTable;

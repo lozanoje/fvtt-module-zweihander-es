@@ -1,0 +1,7 @@
+2025/05/01-20:29:04.401 f8c Recovering log #1525
+2025/05/01-20:29:04.413 f8c Delete type=0 #1525
+2025/05/01-20:29:04.413 f8c Delete type=3 #1523
+2025/05/01-20:39:23.167 4aec Level-0 table #1530: started
+2025/05/01-20:39:23.167 4aec Level-0 table #1530: 0 bytes OK
+2025/05/01-20:39:23.172 4aec Delete type=0 #1528
+2025/05/01-20:39:23.181 4aec Manual compaction at level-0 from '!tables!0OI9XMuV5XVnpqKx' @ 72057594037927935 : 1 .. '!tables.results!xzw1k9IQs2RuMm9o.v2HrXQHKVCsEM5JU' @ 0 : 0; will stop at (end)
