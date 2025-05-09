@@ -144,6 +144,11 @@ Hooks.once("ready", async function () {
       game.settings.set("zweihander","defaultParrySkills","A simples CaC, A marciales CaC, Ardides, Carisma, Encantamiento");
       game.settings.set("zweihander","defaultDodgeSkills","Coordinación, Ardides, Conducción, Equitación");
       game.settings.set("zweihander","defaultMagickSkills","Encantamiento, Folclore");
+
+      game.settings.set("zweihander","defaultPerilSkill","Disciplina");
+      game.settings.set("zweihander","defaultDiseaseSkill","Resistencia");
+      game.settings.set("zweihander","defaultCreatureDodgeSkill","Coordinación");
+      game.settings.set("zweihander","defaultCreatureMagickSkill","Encantamiento");
 	  
     }
   }
