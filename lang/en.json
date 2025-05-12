@@ -83,6 +83,7 @@
         "afflictions": "Afflictions",
         "background": "Background",
         "manualmode": "Manual Mode",
+        "manualmodehint": "Enter manual mode; right-click to pre-fill values",
         "skills": "Skills",
         "description": "Description",
         "primary": "Primary Attributes",

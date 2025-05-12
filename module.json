@@ -2,25 +2,23 @@
   "id": "fvtt-module-zweihander-es",
   "title": "Translation: Spanish [Zweihänder]",
   "description": "Traducción del sistema Zweihänder Juego de Rol Sombrío y Peligroso (github.com/fh-fvtt/zweihander) al español -  Zweihänder Grim & Perilous RPG spanish translation",
-  "version": "5.54.1",
+  "version": "5.55.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12.343",
     "maximum": "12"
   },
-  "languages": [
-    {
+  "languages": [{
       "lang": "es",
       "name": "Español",
       "path": "lang/es.json",
       "flags": {}
     }
   ],
-	  "packFolders": [
-  {
-    "name": "Zweihänder | español",
-    "sorting": "a",
-    "color": "#788c73",
+  "packFolders": [{
+      "name": "Zweihänder | español",
+      "sorting": "a",
+      "color": "#788c73",
       "folders": [{
           "name": "Bestiario",
           "sorting": "a",
@@ -48,10 +46,9 @@
           "packs": ["zh-injuries-es", "zh-gm-tables-es"]
         }
       ]
-  }
+    }
   ],
-  "packs": [
-    {
+  "packs": [{
       "name": "zh-ancestral-traits-es",
       "label": "Rasgos de ancestro",
       "system": "zweihander",
@@ -61,8 +58,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-ancestral-traits-es.db"
-    },
-    {
+    }, {
       "name": "zh-ancestries-es",
       "label": "Ancestros",
       "system": "zweihander",
@@ -72,8 +68,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-ancestries-es.db"
-    },
-    {
+    }, {
       "name": "zh-armor-es",
       "label": "Armaduras",
       "system": "zweihander",
@@ -83,8 +78,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-armor-es.db"
-    },
-    {
+    }, {
       "name": "zh-attack-profiles-es",
       "label": "Perfiles de ataque",
       "system": "zweihander",
@@ -94,8 +88,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-attack-profiles-es.db"
-    },
-    {
+    }, {
       "name": "zh-professions-es",
       "label": "Profesiones",
       "system": "zweihander",
@@ -105,8 +98,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-professions-es.db"
-    },
-    {
+    }, {
       "name": "zh-qualities-es",
       "label": "Cualidades",
       "system": "zweihander",
@@ -116,8 +108,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-qualities-es.db"
-    },
-    {
+    }, {
       "name": "zh-rituals-es",
       "label": "Rituales",
       "system": "zweihander",
@@ -127,8 +118,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-rituals-es.db"
-    },
-    {
+    }, {
       "name": "skills-es",
       "label": "Habilidades",
       "system": "zweihander",
@@ -138,8 +128,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/skills-es.db"
-    },
-    {
+    }, {
       "name": "zh-creature-traits-es",
       "label": "Rasgos de criaturas",
       "system": "zweihander",
@@ -149,8 +138,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-creature-traits-es.db"
-    },
-    {
+    }, {
       "name": "zh-diseases-es",
       "label": "Enfermedades",
       "system": "zweihander",
@@ -160,8 +148,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-diseases-es.db"
-    },
-    {
+    }, {
       "name": "zh-disorders-es",
       "label": "Trastornos",
       "system": "zweihander",
@@ -171,8 +158,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-disorders-es.db"
-    },
-    {
+    }, {
       "name": "zh-drawbacks-es",
       "label": "Desventajas",
       "system": "zweihander",
@@ -182,8 +168,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-drawbacks-es.db"
-    },
-    {
+    }, {
       "name": "zh-talents-es",
       "label": "Talentos",
       "system": "zweihander",
@@ -193,8 +178,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-talents-es.db"
-    },
-    {
+    }, {
       "name": "zh-traits-es",
       "label": "Rasgos",
       "system": "zweihander",
@@ -204,8 +188,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-traits-es.db"
-    },
-    {
+    }, {
       "name": "zh-weapons-es",
       "label": "Armas",
       "system": "zweihander",
@@ -215,8 +198,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-weapons-es.db"
-    },
-    {
+    }, {
       "name": "zh-weapons-alt-damage-es",
       "label": "Armas (daño alternativo)",
       "system": "zweihander",
@@ -226,8 +208,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-weapons-alt-damage-es.db"
-    },
-    {
+    }, {
       "name": "zh-injuries-es",
       "label": "Heridas",
       "system": "zweihander",
@@ -237,8 +218,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-injuries-es.db"
-    },
-    {
+    }, {
       "name": "zh-taints-es",
       "label": "Manchas del Caos",
       "system": "zweihander",
@@ -248,8 +228,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-taints-es.db"
-    },
-    {
+    }, {
       "name": "zh-magick-es",
       "label": "Magia",
       "system": "zweihander",
@@ -259,8 +238,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-magick-es.db"
-    },
-    {
+    }, {
       "name": "zh-trappings-es",
       "label": "Enseres",
       "system": "zweihander",
@@ -270,8 +248,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-trappings-es.db"
-    },
-    {
+    }, {
       "name": "zh-bestiary-es",
       "label": "Bestiario",
       "system": "zweihander",
@@ -281,8 +258,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-bestiary-es.db"
-    },
-    {
+    }, {
       "name": "zh-gm-tables-es",
       "label": "Tablas GM",
       "system": "zweihander",
@@ -292,8 +268,7 @@
       "flags": {},
       "package": "fvtt-module-zweihander-es",
       "absPath": "packs/zh-gm-tables-es.db"
-    },
-    {
+    }, {
       "name": "zh-charactercreation-tables-es",
       "label": "Tablas de creación de PJs",
       "type": "RollTable",
@@ -308,26 +283,25 @@
   "url": "https://github.com/lozanoje/fvtt-module-zweihander-es",
   "manifest": "https://raw.githubusercontent.com/lozanoje/fvtt-module-zweihander-es/main/module.json",
   "download": "https://github.com/lozanoje/fvtt-module-zweihander-es/archive/main.zip",
-  "authors": [
-    {
+  "authors": [{
       "name": "Viriato139ac",
       "discord": "@Viriato139ac#0342"
     }
   ],
-	  "relationships": {
-	    "systems": [{
-	        "id": "zweihander",
-	        "type": "system",
-	        "compatibility": "5.5.4"
-	      }
-	    ],
-	    "requires": [{
-	        "id": "foundryvtt-es",
-	        "type": "module",
-	        "compatibility": {}
-	      }
-	    ]
-	  },
+  "relationships": {
+    "systems": [{
+        "id": "zweihander",
+        "type": "system",
+        "compatibility": "5.5.5"
+      }
+    ],
+    "requires": [{
+        "id": "foundryvtt-es",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
   "esmodules": [
     "fvtt-module-zweihander-es.js"
   ]

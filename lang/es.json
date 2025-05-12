@@ -83,6 +83,7 @@
         "afflictions": "Males",
         "background": "Trasfondo",
         "manualmode": "Modo manual",
+        "manualmodehint": "Clic para entrar en modo manual, clic derecho para copiar los valores automáticos al modo manual.",
         "skills": "Habilidades",
         "description": "Descripción",
         "primary": "Atributos primarios",
