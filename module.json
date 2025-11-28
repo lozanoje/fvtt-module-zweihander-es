@@ -2,11 +2,11 @@
   "id": "fvtt-module-zweihander-es",
   "title": "Translation: Spanish [Zweihänder]",
   "description": "Traducción del sistema Zweihänder Juego de Rol Sombrío y Peligroso (github.com/fh-fvtt/zweihander) al español -  Zweihänder Grim & Perilous RPG spanish translation",
-  "version": "5.55.1",
+  "version": "5.61.1",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12.343",
-    "maximum": "12"
+    "minimum": "13",
+    "verified": "13.350",
+    "maximum": "13"
   },
   "languages": [{
       "lang": "es",
@@ -292,7 +292,7 @@
     "systems": [{
         "id": "zweihander",
         "type": "system",
-        "compatibility": "5.5.5"
+        "compatibility": "5.6.1"
       }
     ],
     "requires": [{
