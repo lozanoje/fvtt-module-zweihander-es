@@ -8,8 +8,8 @@ Hooks.once("ready", async function () {
         updateMacro(ficherosjs[i]);
     }
     if (game.settings.get("core", "language") === "es") {
-      document.getElementById("logo").src = "modules/fvtt-module-zweihander-es/images/fvtt-zweihander-es.webp";
-      document.getElementById("logo").style = "display: unset;filter: unset;";	  
+      //document.getElementById("logo").src = "modules/fvtt-module-zweihander-es/images/fvtt-zweihander-es.webp";
+      //document.getElementById("logo").style = "display: unset;filter: unset;";	  
 
       game.settings.set("zweihander","skillPack","fvtt-module-zweihander-es.skills-es");
       game.settings.set("zweihander","ancestralTraitPack","fvtt-module-zweihander-es.zh-ancestral-traits-es");

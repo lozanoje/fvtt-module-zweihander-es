@@ -131,10 +131,10 @@
         "damage": "Daño",
         "damagethresholdmodifier": "MUD",
         "dtm": "MUD",
-        "movefly": "Movim./Vuelo",
-        "dth": "UDñ",
-        "pth": "UEs",
-        "vth": "UVh",
+        "movefly": "Mov./Vuelo",
+        "dth": "U.Daño",
+        "pth": "U.Estrés",
+        "vth": "U.Vehículo",
         "sizeModifier": "Mod. tamaño",
         "horsepower": "Potencia",
         "encumbranceLimit": "Límite de carga",
@@ -408,7 +408,8 @@
           "upbringing": "Educación",
           "born": "Nacimiento",
           "horsepower": "Potencia",
-          "operateSkill": "Prueba de pilotaje"
+          "operateSkill": "Prueba de pilotaje",
+		  "creaturedescription": "Descripción del PNJ/criatura."
         },
         "labels": {
           "small": "Pequeño (P)",
