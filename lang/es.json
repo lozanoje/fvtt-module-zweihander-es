@@ -251,6 +251,7 @@
         "details": "Detalles",
         "description": "Descripción",
         "notes": "Notas",
+        "noteslegend": "Información misc.",
         "expertprofession": "Profesión avanzada",
         "requirements": "Requiremientos",
         "consequences": "Consecuencias",
@@ -408,8 +409,7 @@
           "upbringing": "Educación",
           "born": "Nacimiento",
           "horsepower": "Potencia",
-          "operateSkill": "Prueba de pilotaje",
-		  "creaturedescription": "Descripción del PNJ/criatura."
+          "operateSkill": "Prueba de pilotaje"
         },
         "labels": {
           "small": "Pequeño (P)",
@@ -788,6 +788,7 @@
       "injuryconfig": "Configuración de heridas",
       "errorprofessions": "Un personaje no puede tener más de tres profesiones",
       "errortier": "Un personaje debe completar el nivel actual antes de asignarle una nueva profesión",
+      "errortierdelete": "No se puede borrar profesión \"{name}\": se deben borrar primero las profesiones de nivel superior.",
       "errorancestry": "Un personaje no puede tener más de un ancestro",
       "errorft": "Solo el GM puede reiniciar el marcador de fortuna. ¡Mantenga alejadas sus sucias manos de él, gusano!",
       "ftwaiting": "El marcador de fortuna está esperando a que se (re)conecte un GM",
