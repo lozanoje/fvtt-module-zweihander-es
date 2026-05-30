@@ -40,6 +40,37 @@ Hooks.once("ready", async function () {
       game.settings.set("zweihander","defaultCreatureMagickSkill","Encantamiento");
       game.settings.set("zweihander","defaultDiseaseSkill","Resistencia");
     }
+	
+	if (game.modules.get("splatter")?.active) {
+		console.log("¡El módulo splatter está cargado y listo!");
+		game.settings.set("splatter","enableBloodsplatter",true);
+		game.settings.set("splatter","enableBloodTrail",true);
+		game.settings.set("splatter","violence",5);
+		game.settings.set("splatter","bloodsplatterScale",0.8);
+		game.settings.set("splatter","bloodsplatterThreshold",75);
+		game.settings.set("splatter","creatureType","type");
+		game.settings.set("splatter","creatureTypeCustom","type");
+		game.settings.set("splatter","currentHp","stats.secondaryAttributes.damageCurrent.value");
+		game.settings.set("splatter","maxHp","stats.secondaryAttributes.damageCurrent.max");
+		game.settings.set("splatter","useWounds",false);
+		const BloodSheetData = {
+			character: "#a51414b0",
+			npc: "#a51414b0",
+			creature: "#1dbb02b0",
+			vehicle: "#f7f7f7b0",
+		};
+		game.settings.set("splatter", "BloodSheetData", BloodSheetData);
+  } else{
+	  		console.log("¡El módulo splatter NO está cargado y listo!");
+
+  }
+
+	if (game.modules.get("heartbeat")?.active) {
+		console.log("¡El módulo heartbeat está cargado y listo!");
+		game.settings.set("heartbeat","additionalActorTypes","character");
+		game.settings.set("heartbeat","hpPath","system.stats.secondaryAttributes.damageCurrent.value");
+		game.settings.set("heartbeat","maxhpPath","system.stats.secondaryAttributes.damageCurrent.max");
+	}
   }
 });
 

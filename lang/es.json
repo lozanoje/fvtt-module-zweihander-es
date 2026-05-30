@@ -35,21 +35,30 @@
     }
   },
   "EFFECT": {
+    "statuseffect": "Efecto de estado",
     "dead": "¡Mueres!",
-    "blind": "Cegado",
+    "blinded": "Cegado",
     "choked": "Estrangulado",
     "defenseless": "Desprotegido",
     "disarmed": "Desarmado",
     "helpless": "Indefenso",
     "inspired": "Inspirado",
     "intimidated": "Intimidado",
-    "knockedOut": "Noqueado",
+    "knockedout": "Noqueado",
     "prone": "Derribado",
     "stunned": "Aturdido",
     "surprised": "Sorprendido",
-    "burning": "En llamas",
+    "onfire": "¡En llamas!",
     "bleeding": "Desangrarse",
-    "isActive": "Efecto activo"
+    "incapacitated": "¡Incapacitado!",
+    "intoxicated": "Ebrio",
+    "delirious": "Delirando",
+    "confused": "Confundido",
+    "starving": "Hambriento",
+    "suffocating": "Asfixiándose",
+    "poisoned": "Intoxicado",
+    "envenomed": "Envenenado",
+    "exhausted": "Exhausto"
   },
   "ZWEI": {
     "Difficulty": {
@@ -755,6 +764,7 @@
       "effectivevalue": "Valor efectivo"
     },
     "othermessages": {
+      "expired": "Expirado",
       "nofortune": "¡No se puede usar fortuna!",
       "nomisfortune": "¡No se puede usar desgracia!",
       "setfortune": "Reiniciar puntos de fortuna (número de jugadores + 1)",
